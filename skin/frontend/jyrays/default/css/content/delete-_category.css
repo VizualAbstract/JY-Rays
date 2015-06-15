@@ -1,0 +1,69 @@
+/*
+Error: Undefined variable: "$box-spacing".
+        on line 50 of /vagrant/httpdocs/skin/frontend/jyrays/default/scss/./../scss/content/delete-_category.scss
+
+45: .catblocks li {
+46:     position: relative;
+47:     float: left !important;
+48:     width: 23% !important;
+49:     margin-right: percentage(8/300) !important;
+50:     margin-bottom: $box-spacing;
+51:     border: 1px solid $c-module-border;
+52:     padding: 10px;
+53: }
+54: 
+55: .catblocks li:hover {
+
+Backtrace:
+/vagrant/httpdocs/skin/frontend/jyrays/default/scss/./../scss/content/delete-_category.scss:50
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/script/tree/variable.rb:49:in `_perform'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/script/tree/node.rb:50:in `perform'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `map'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/root_node.rb:20:in `render'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/engine.rb:268:in `render'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/vendor/listen/lib/listen/listener.rb:252:in `call'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$box-spacing\".\A         on line 50 of /vagrant/httpdocs/skin/frontend/jyrays/default/scss/./../scss/content/delete-_category.scss\A \A 45: .catblocks li {\A 46:     position: relative;\A 47:     float: left !important;\A 48:     width: 23% !important;\A 49:     margin-right: percentage(8/300) !important;\A 50:     margin-bottom: $box-spacing;\A 51:     border: 1px solid $c-module-border;\A 52:     padding: 10px;\A 53: }\A 54: \A 55: .catblocks li:hover {"; }
